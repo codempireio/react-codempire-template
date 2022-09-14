@@ -4,7 +4,8 @@
   "name": "react-web-codempire-template",
   "description": "Web template for Codempire",
   "scripts": {
-    "start": "node src/test.js"
+    "start": "node src/test.js",
+    "compile": "tsc src/test.ts"
   },
   "keywords": [
     "web",
@@ -21,5 +22,8 @@
     "email": "alexander.antoschuk.dev@gmail.com"
   },
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
 }
