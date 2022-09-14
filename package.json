@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "name": "react-web-codempire-template",
+  "description": "Web template for Codempire",
+  "scripts": {
+    "start": "node src/test.js"
+  },
+  "keywords": [
+    "web",
+    "react",
+    "template",
+    "codempire"
+  ],
+  "homepage": "https://codempire.io/",
+  "repository": "https://github.com/codempireio/react-web-codempire-template.git",
+  "author": "Dima Velychko <dima@codempire.team>",
+  "contributes": {
+    "name": "Alexander Antoschuk",
+    "url": "https://github.com/aantoschuk",
+    "email": "alexander.antoschuk.dev@gmail.com"
+  },
+  "private": true,
+  "license": "MIT"
+}
