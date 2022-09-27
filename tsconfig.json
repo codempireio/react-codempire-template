@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "dist",
+    "allowJs": false,
+    "sourceMap": true,
+    "target": "ES2015",
+    "module": "commonjs",
+    "skipLibCheck": false,
+    "alwaysStrict": true, // "use strict" for each source file
+    "noImplicitAny": true, // ts will issue an error whenever if would interfered any
+    "removeComments": true, // strips all the comments from the .ts
+    "noUnusedLocals": true, // throw an error when there unused local variables
+    "strictNullChecks": true, // do not ignore null and undefined by language
+    "noImplicitReturns": true, // check all code paths to ensure, that they return value
+    "preserveConstEnums": true,
+    "noImplicitOverride": true, // check for override modifier in inherited classes
+    "noUnusedParameters": true, // throw an error when there unused parameters 
+    "strictFunctionTypes": true, // better type checking for functions
+    "allowUnreachableCode": false, // raise compiler error on unreachable error
+    "exactOptionalPropertyTypes": true, // do not allow silently ignore union types, only what defined can be asssignet
+    "noFallthroughCasesInSwitch": false,  // all fall through in switch-case
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/"]
+}
