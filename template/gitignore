@@ -1,0 +1,15 @@
+# dependencies
+
+/node_modules
+/.pnp
+
+# build
+
+/build
+
+# misc
+
+/.DS_Store
+.env*
+yarn-debug.log*
+yarn-error.log*
